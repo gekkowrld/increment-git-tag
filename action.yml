@@ -10,5 +10,5 @@ outputs:
   new-version:
     description: Increment version based on input
 runs:
-  using: node
+  using: node12
   main: action/index.js
