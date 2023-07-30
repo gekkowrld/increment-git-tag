@@ -1,0 +1,10 @@
+name: Increment Git Tag
+description: Increments git tag based on the provided version type
+inputs:
+  version-type: 
+    description: Provide version type [major, minor, patch]
+    required: true
+    default: patch
+outputs:
+  using: node12
+  main: action/index.js
